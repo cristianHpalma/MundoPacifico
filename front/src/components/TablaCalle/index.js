@@ -29,7 +29,7 @@ const TablaCalle = ({ ciudad }) => {
                 <tr>
                     {
                         calle.map((item) =>
-                            <td key={item.nombre_calle}>{item.nombre_calle}</td>
+                            <tr key={item.nombre_calle}>{item.nombre_calle}</tr>
                         )
                     }
                 </tr>
