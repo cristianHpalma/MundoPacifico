@@ -13,7 +13,7 @@ class Region extends Model
     protected $primaryKey = 'id_region';
     public $timestamps = false;
 
-    protected $appends = [
+ /*    protected $appends = [
         'provincia'
     ];
 
@@ -26,5 +26,5 @@ class Region extends Model
     public function getProvinciaAttribute()
     {
         return $this->provincias()->get();
-    }
+    } */
 }

@@ -12,7 +12,7 @@ class Provincia extends Model
     protected $primaryKey = 'id_provincia';
     public $timestamps = false;
 
-    protected $appends = [
+   /*  protected $appends = [
         'ciudad'
     ];
     protected $hidden = [
@@ -27,6 +27,6 @@ class Provincia extends Model
     public function getCiudadAttribute()
     {
         return $this->ciudad()->get();
-    }
+    } */
 
 }
